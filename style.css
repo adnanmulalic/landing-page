@@ -2,24 +2,38 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 ul {
     display: flex;
+    gap: 10px;
 }
 li, a {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 10px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+header > p, header > ul, .left-intro, .intro > img {
+    max-width: 600px;
 }
 header {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+    padding: 0 200px;
+    
+}
+.header {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    max-width: 1200px;
 }
 .left-intro > button {
     background-color: #3882F6;
@@ -32,15 +46,20 @@ header {
 .intro {
     background-color: #1F2937;
     color:#E5E7EB;
-    padding: 100px;
+    padding: 50px 200px;
     display: flex;
+    justify-content: center;
 }
 .left-intro {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 1;
+    justify-content: space-between;
 }
 
+
 .intro > img {
-    flex: 2;
+    flex: 1;
+    object-fit: cover;
+    margin-left: 40px;
 }
