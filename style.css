@@ -119,3 +119,37 @@ figcaption {
     font-style: normal;
     text-align: right;
 }
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 50px 300px;
+    color:#F9FAF8;
+}
+.sign-up-box {
+    max-width: 1200px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    gap: 100px;
+}
+.sign-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-button > button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 100px;
+    height: 25px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;   
+}
+.sign-up-text > p {
+    margin: 0;
+}
+.sign-up-text > p:first-of-type {
+    font-size: 24px;
+    font-weight: bold;
+}
