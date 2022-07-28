@@ -108,6 +108,8 @@ h1 {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    display: flex;
+    justify-content: center;
 }
 .quote > figure {
     padding: 50px 300px;
@@ -152,4 +154,11 @@ figcaption {
 .sign-up-text > p:first-of-type {
     font-size: 24px;
     font-weight: bold;
+}
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 25px 0;
 }
