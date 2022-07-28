@@ -80,6 +80,7 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    padding: 25px 300px 0;
 }
 .box-images {
     display: flex;
@@ -87,6 +88,7 @@ h1 {
     font-size: 18px;
     color: #1F2937;
     gap: 40px;
+    padding: 25px 300px 50px;
 }
 .image-txt > img {
     border: solid 3px #3882F6;
@@ -99,4 +101,21 @@ h1 {
 .image-txt {
     max-width: 160px;
     max-height: 300px;
+}
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote > figure {
+    padding: 50px 300px;
+    max-width: 1200px;
+}
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
 }
