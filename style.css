@@ -71,6 +71,10 @@ h1 {
     object-fit: cover;
     margin-left: 20px;
 }
+.middle {
+    display: flex;
+    flex-direction: column;
+}
 .middle > h2 {
     text-align: center;
     font-size: 36px;
@@ -81,18 +85,18 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 18px;
-    color: grey;
+    color: #1F2937;
     gap: 40px;
 }
 .image-txt > img {
-    border: solid 2px #3882F6;
+    border: solid 3px #3882F6;
     border-radius: 10px;
 }
 .image-txt > p{
-    text-align: center;
-    max-width: 150px;
+    text-align: justify;
+    margin-top: 10px;
 }
 .image-txt {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 160px;
+    max-height: 300px;
 }
